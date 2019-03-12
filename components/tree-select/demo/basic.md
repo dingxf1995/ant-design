@@ -40,7 +40,7 @@ class Demo extends React.Component {
         treeDefaultExpandAll
         onChange={this.onChange}
       >
-        <TreeNode value="parent 1" title="parent 1" key="0-1">
+        <TreeNode value="parent 1" title="parent 1" key="0-1" disabled>
           <TreeNode value="parent 1-0" title="parent 1-0" key="0-1-1">
             <TreeNode value="leaf1" title="my leaf" key="random" />
             <TreeNode value="leaf2" title="your leaf" key="random1" />
